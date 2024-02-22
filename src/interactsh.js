@@ -24,12 +24,10 @@ class Interactsh {
             const foundUrl = data.toString().match(this.urlRegex);
             if (foundUrl) {
                 this.url = foundUrl[0];
-                console.log('URL: ' + this.url);
             }
         });
 
         this.child.stdout.on('data', (data) => {
-            console.log('Data: ' + data.toString());
             const foundData = data.toString().match(this.dataRegex);
             if (foundData) {
                 // extract the IP and date
@@ -40,7 +38,6 @@ class Interactsh {
                     ip,
                     date: dateTime
                 })
-                console.log('Data: ' + JSON.stringify(this.mainData));
             }
         });
     }
