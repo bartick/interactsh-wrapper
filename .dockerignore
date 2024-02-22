@@ -1,0 +1,7 @@
+/bin/*
+/pkg/*
+
+!bin/.keep
+!bin/.keep
+
+node_modules
