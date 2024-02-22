@@ -3,3 +3,5 @@
 
 !/bin/.keep
 !/pkg/.keep
+
+/node_modules
