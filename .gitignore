@@ -1,0 +1,5 @@
+/bin/*
+/pkg/*
+
+!/bin/.keep
+!/pkg/.keep
