@@ -55,3 +55,5 @@ curl -X GET "http://localhost:3000/getInteractions"
 ```bash
 curl -X GET "http://localhost:3000/getInteractions?url=https://example.com" -H "accept: application/json"
 ```
+
+Working Video: [https://youtu.be/k_wpxcz9eRg](https://youtu.be/k_wpxcz9eRg).
